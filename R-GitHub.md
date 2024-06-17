@@ -29,7 +29,9 @@ curl -u 'SEU_USUARIO' https://api.github.com/user/repos -d '{"name":"NOME_DO_REP
 
 git remote add origin URL_DO_REPOSITORIO_GITHUB.git
 
-git push -u origin master
+git branch -M main
+
+git push -u origin main
 
 
 
