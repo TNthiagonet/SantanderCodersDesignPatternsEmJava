@@ -41,6 +41,9 @@ git push -u origin main
 
 
 
+
+
+
 # Para baixar atualizações online para o local
 
 git pull origin main

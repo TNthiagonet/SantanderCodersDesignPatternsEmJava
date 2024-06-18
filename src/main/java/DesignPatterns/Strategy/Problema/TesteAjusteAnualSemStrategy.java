@@ -10,17 +10,17 @@ public class TesteAjusteAnualSemStrategy {
         ReajusteAnualSalario reajusteAnualSalario = new ReajusteAnualSalario();
         
         Funcionario funcionarioCLT = new Funcionario();
-        funcionarioCLT.setNome("Klaus");
+        funcionarioCLT.setNome("Thiago");
         funcionarioCLT.setTipoContratacao(TipoContratacaoEnum.CLT);
         funcionarioCLT.setSalario(new BigDecimal(4500));
 
         Funcionario funcionarioPJ = new Funcionario();
-        funcionarioPJ.setNome("Erick");
+        funcionarioPJ.setNome("Maécio");
         funcionarioPJ.setTipoContratacao(TipoContratacaoEnum.PJ);
         funcionarioPJ.setSalario(new BigDecimal(6000));
 
         Funcionario funcionarioEstagiario = new Funcionario();
-        funcionarioEstagiario.setNome("Felipe");
+        funcionarioEstagiario.setNome("Jhonnatas");
         funcionarioEstagiario.setTipoContratacao(TipoContratacaoEnum.ESTAGIO);
         funcionarioEstagiario.setSalario(new BigDecimal(1300));
 
