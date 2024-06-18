@@ -33,7 +33,10 @@ git remote add origin URL_DO_REPOSITORIO_GITHUB.git
 
 git branch -M main
 
-git push -u origin main
+git push -u origin main 
+
+
+
 
 
 
